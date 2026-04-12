@@ -3,13 +3,13 @@
     "exchanges": {
         "coindcx": {
             "enabled": true,
-            "api_key": "caa82040806164bcaf63374a7c0449136ae235662b974dfe",
-            "api_secret": "f0e2e52d9a536650dde7b5ed02ef41b610e6c1fbbc3f3d940e2f5a4ce14a791d"
+            "api_key": "",
+            "api_secret": ""
         },
         "delta": {
             "enabled": true,
-            "api_key": "DHLKiTHWMAnIaFMSm797YQya49ylXs",
-            "api_secret": "b56WxXwEl2TStRgMmIvAU0u8ftRw46CgXSJppuCpGsHdmvxkskdas66cs7zn"
+            "api_key": "",
+            "api_secret": ""
         }
     },
     "strategy": {
@@ -26,6 +26,6 @@
         "capital_pct": 80.0,
         "max_concurrent_positions": 1
     },
-    "telegram_bot_token": "your_telegram_bot_token",
-    "telegram_chat_id": "your_telegram_chat_id"
+    "telegram_bot_token": "",
+    "telegram_chat_id": ""
 }
