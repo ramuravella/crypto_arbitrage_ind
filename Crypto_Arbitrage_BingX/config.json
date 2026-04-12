@@ -1,0 +1,15 @@
+{
+    "exchange": "bingx",
+    "target_asset": "USDT",
+    "max_concurrent_arbitrages": 1,
+    "leverage": 1,
+    "use_demo_account": false,
+    "min_apy_entry_pct": 300.0,
+    "min_apy_exit_pct": 100.0,
+    "minimum_hold_hours": 25.0,
+    "margin_danger_pct": 20.0,
+    "max_capital_utilization_pct": 0.90,
+    "blacklist_cooldown_hours": 24,
+    "telegram_bot_token": "8520008264:AAH1oTeJN77WZ4qSAtfT0poIqPI47q1XpDQ",
+    "telegram_chat_id": "1886032407"
+}

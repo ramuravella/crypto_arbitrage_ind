@@ -1,4 +1,6 @@
 __pycache__/
 .env
+.env_keys
 *.pyc
 *.log
+users.db

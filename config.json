@@ -1,0 +1,31 @@
+{
+    "mode": "live",
+    "exchanges": {
+        "coindcx": {
+            "enabled": true,
+            "api_key": "caa82040806164bcaf63374a7c0449136ae235662b974dfe",
+            "api_secret": "f0e2e52d9a536650dde7b5ed02ef41b610e6c1fbbc3f3d940e2f5a4ce14a791d"
+        },
+        "delta": {
+            "enabled": true,
+            "api_key": "DHLKiTHWMAnIaFMSm797YQya49ylXs",
+            "api_secret": "b56WxXwEl2TStRgMmIvAU0u8ftRw46CgXSJppuCpGsHdmvxkskdas66cs7zn"
+        }
+    },
+    "strategy": {
+        "min_spread_pct": 0.6,
+        "exit_floor_pct": 0.1,
+        "entry_buffer_minutes": 15,
+        "stability_scans_required": 2,
+        "scan_interval_seconds": 30,
+        "liquidation_check_interval_seconds": 3,
+        "max_24h_change_pct": 50
+    },
+    "risk": {
+        "leverage": 5,
+        "capital_pct": 80.0,
+        "max_concurrent_positions": 1
+    },
+    "telegram_bot_token": "your_telegram_bot_token",
+    "telegram_chat_id": "your_telegram_chat_id"
+}
